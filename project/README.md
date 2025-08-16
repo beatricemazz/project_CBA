@@ -14,14 +14,13 @@ The tool provides a range of visualizations to help analyze the sensitivity of e
 - Waterfall charts showing contribution of each factor
 - Monte Carlo simulation results with probability distributions
 - Break-even analysis for adoption thresholds
-- Interactive dashboard for exploring parameter combinations
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.8+
-- Required libraries: matplotlib, seaborn, pandas, numpy, plotly, streamlit
+- Required libraries: matplotlib, seaborn, pandas, numpy, plotly
 
 ### Installation
 
@@ -42,16 +41,6 @@ python main.py
 
 This will create all charts and save them in the `output` directory.
 
-### Interactive Dashboard
-
-For an interactive experience, run the Streamlit dashboard:
-
-```bash
-streamlit run dashboard.py
-```
-
-This will launch a web interface where you can adjust parameters and see their impact on the analysis in real-time.
-
 ## Project Structure
 
 - `utils.py` - Core functions and parameters for cost-benefit calculations
@@ -60,7 +49,6 @@ This will launch a web interface where you can adjust parameters and see their i
 - `monte_carlo_analysis.py` - Monte Carlo simulation visualizations
 - `interactive_dashboard.py` - Combined NPV analysis and summary dashboard
 - `main.py` - Script to generate all visualizations
-- `dashboard.py` - Interactive Streamlit dashboard
 
 ## Key Parameters
 
